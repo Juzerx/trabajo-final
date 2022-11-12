@@ -1,0 +1,50 @@
+
+
+.option_group{
+    list-style-type: none;
+    margin: 30px 0;
+}
+
+.option{
+    display: block;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    transition: 0.4s all;
+    color: chocolate;
+}
+
+.option:hover{
+    cursor: pointer;
+    border: 2px solid rgb(106, 31, 150);
+    color: rgb(106, 31, 150)7;
+}
+
+.option.active{
+    background-color: rgb(106, 31, 150);
+    color: #fff;
+}
+
+.btn-next{
+    border: none;
+    padding: 15px 35px;
+    background-color: rgb(106, 31, 150);
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.4s all;
+}
+
+.btn-next:hover{
+    cursor: pointer;
+    background-color: rgb(102, 4, 230);
+    color: #000;
+}
+.option.gooda{
+    color: greenyellow;
+}
+.option.bada{
+    color: red;
+}

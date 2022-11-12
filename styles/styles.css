@@ -1,0 +1,91 @@
+@import url("questions.css");
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(106, 31, 150);
+}
+@media screen and (min-width: 1368px) {
+h1 {
+    margin: 0px;
+    padding: 20px;
+    background-color: black;
+    color: chocolate;
+}
+#start {
+    margin: 0px;
+    padding: 10px;
+    padding-left: 2px;
+    background-color: aliceblue;
+}
+.boton {
+    background-color: chocolate;
+    color: rgb(14, 12, 10);
+    width: 100px;
+    height: 40px;
+}
+#pumpkings {
+    width: 620px;
+    height: 400px;
+}
+#quest {
+    padding: 10px 30px;
+    width: 300px;
+    margin: 0;
+    background-color: black;
+    color: chocolate;
+    display: inline-block;
+}
+#htp {
+    display: inline-block;
+    width: 300px;
+    padding: 10px 30px;
+    margin: 0;
+    background-color: aliceblue;
+    
+}
+#q {
+    margin: 0px;
+    padding: 20px;
+    background-color: black;
+    text-decoration-color: chocolate;
+    color: chocolate;
+    }
+#onequ {
+    display: inline-block;
+    background-color: black;
+    color: coral;
+    margin: 20px 40px;
+    padding: 20px;
+    border: 1px rgb(14, 12, 10);
+}
+#verdadero {
+    background-color: green;
+    border: 0;
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+}
+#falso {
+    background-color: red;
+    border: 0;
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+}
+#spooky {
+    width: 400px;
+}
+#qsbar {
+    background-color: rgb(41, 41, 41);
+    display: inline-block;
+    width: 600px;
+    height: 500px;
+}
+#a {
+    color: chocolate;
+}
+}
